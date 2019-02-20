@@ -1,0 +1,82 @@
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear::after {
+    clear: both;
+    display: block;
+    content: '';
+    overflow: hidden;
+}
+
+#header {
+    min-width: 1000px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #777;
+
+}
+
+h1 {
+    text-indent: -999px;
+}
+
+.top_wrap {
+    width: 1000px;
+    height: 50px;
+    line-height: 15px;
+    margin: 0 auto;
+}
+
+.li_left {
+    float: left;
+    padding-left: 8px;
+}
+
+.li_left:first-child {
+    padding-left: 0;
+}
+
+.li_left:first-child::after {
+    content: '|';
+    padding-left: 10px;
+    color: #fff;
+}
+
+.ul_right {
+    float: right;
+
+}
+
+.li_right {
+    padding-left: 15px;
+    float: left;
+}
+
+.li_right:first-child {
+    padding-left: 0;
+}
+
+.language::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url(./images/toputil_r_blt.png)no-repeat 0px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px 0 0;
+
+}
+
+.language::after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 3px;
+    background: url(./images/toputil_r_blt.png)no-repeat -15px 0;
+    vertical-align: middle;
+    margin: 0 0 0 3px;
+    
+}
