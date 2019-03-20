@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.group {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.box01 {
+    background-color: brown;
+}
+
+.box02 {
+    background-color: blue;
+    width: 300px;
+    float: left;
+}
+
+
+
+.box03 {
+    background-color: aqua;
+    width: 700px;
+    float: left;
+}
+
+.box02, .box03 {
+    height: 100px;
+}
+.box01, .box04 {
+    width: 1000px;
+    height: 50px;
+}
+
+
+.box04 {
+    background-color: yellowgreen;
+    clear: both;
+}
